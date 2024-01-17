@@ -4,7 +4,7 @@ const key = "e9f2f24a-d8a8-44af-ac48-3b0918da2fa4";
 
 async function fetchData () {
     try{
-    const response = await fetch("http://api.airvisual.com/v2/nearest_city?lat=" + RennesLat +"&lon=" + RennesLon + "&key=" + key);
+    const response = await fetch("https://api.airvisual.com/v2/nearest_city?lat=" + RennesLat +"&lon=" + RennesLon + "&key=" + key);
     if(!response.ok){
         throw new Error('Error' + response.status + "," + "response.statusText")
     }
