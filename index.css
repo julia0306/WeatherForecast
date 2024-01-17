@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(20, 5, 63);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    margin: 100px auto 0 auto;
+    color: white;
+}
+
+.forecast-container{
+    width: 500px; 
+    height: 500px;
+    background-color: aliceblue;
+    margin: 100px auto 0 auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+}
+
+.forecast-context{
+    margin: 40px 0 0 0;
+}
+
+.illustration{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.city{
+    font-size: 3rem;
+}
+
+.country{
+    font-size: 2rem;
+}
+
+.temperature{
+    font-size: 3rem;
+}
