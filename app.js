@@ -1,6 +1,7 @@
 let RennesLat = 48.11;
 let RennesLon = -1.67;
 const key = "e9f2f24a-d8a8-44af-ac48-3b0918da2fa4";
+const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
 async function fetchData() {
   try {
